@@ -9,10 +9,22 @@ export default function ApplyPage() {
   const [mode, setMode] = useState<'model' | 'personal'>('model');
   
   return (
-    <ThemeProvider>
+    <ThemeProvider 
+      defaultButtonVariant="text-stagger" 
+      defaultTextAnimation="entrance-slide" 
+      borderRadius="rounded" 
+      contentWidth="medium" 
+      sizing="medium" 
+      background="circleGradient" 
+      cardStyle="glass-elevated" 
+      primaryButtonStyle="gradient" 
+      secondaryButtonStyle="glass" 
+      headingFontWeight="normal"
+    >
       <NavbarLayoutFloatingInline 
         navItems={[{ name: "Home", id: "/" }, { name: "Apply", id: "/apply" }]} 
         brandName="Artemis"
+        button={{ text: "Apply Now", href: "/apply" }}
       />
       
       <main className="pt-32 pb-20 px-6 max-w-2xl mx-auto">
