@@ -134,7 +134,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="footer" data-section="footer" className="bg-gradient-to-b from-background to-card">
+  <div id="footer" data-section="footer">
       <FooterBaseReveal
       logoText="ARTEMIS"
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DzkD2uz35Ou1bcDokeeXdpdXCv/uploaded-1779296716411-d4fpppan.jpg"
