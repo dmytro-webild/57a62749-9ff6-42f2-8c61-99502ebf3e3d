@@ -33,7 +33,7 @@ export default function LandingPage() {
         { name: "Process", id: "#process" },
         { name: "Values", id: "#values" },
         { name: "Apply", id: "/apply" },
-        { name: "Contact", id: "#contact" },
+        { name: "Contact", id: "/contact" },
         { name: "Language", id: "#lang" }
       ]}
       brandName="Artemis Agency"
@@ -48,7 +48,7 @@ export default function LandingPage() {
       title="Professional support for your OnlyFans business."
       titleClassName="text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] font-extrabold"
       description="Artemis supports selected creators with strategic growth, optimization and management — discreet, structured and professional."
-      buttons={[{ text: "Book a Free Consultation", href: "#contact" }]}
+      buttons={[{ text: "Book a Free Consultation", href: "/contact" }]}
       imageSrc="http://img.b2bpic.net/free-photo/elegant-geometric-background-business_24972-1791.jpg"
       showDimOverlay={true}
       showBlur={true}
