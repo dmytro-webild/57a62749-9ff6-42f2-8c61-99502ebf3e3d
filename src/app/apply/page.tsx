@@ -44,10 +44,10 @@ export default function ApplyPage() {
         </div>
 
         <form className="space-y-6">
-          <div><label className="block mb-2">Full Name</label><input type="text" className="w-full p-3 bg-card border rounded" placeholder="Your full name" /></div>
-          <div><label className="block mb-2">Age</label><input type="number" className="w-full p-3 bg-card border rounded" placeholder="Your age" /></div>
-          <div><label className="block mb-2">Email</label><input type="email" className="w-full p-3 bg-card border rounded" placeholder="email@example.com" /></div>
-          <div><label className="block mb-2">Phone</label><input type="tel" className="w-full p-3 bg-card border rounded" placeholder="+49..." /></div>
+          <div><label className="block mb-2">Full Name</label><input required type="text" className="w-full p-3 bg-card border rounded" placeholder="Your full name" /></div>
+          <div><label className="block mb-2">Age</label><input required type="number" className="w-full p-3 bg-card border rounded" placeholder="Your age" /></div>
+          <div><label className="block mb-2">Email</label><input required type="email" className="w-full p-3 bg-card border rounded" placeholder="email@example.com" /></div>
+          <div><label className="block mb-2">Phone</label><input required type="tel" className="w-full p-3 bg-card border rounded" placeholder="+49..." /></div>
           <div><label className="block mb-2">Country</label><select className="w-full p-3 bg-card border rounded"><option>Germany</option><option>Austria</option><option>Switzerland</option></select></div>
           
           {mode === 'model' && (
