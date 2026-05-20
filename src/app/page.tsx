@@ -37,6 +37,7 @@ export default function LandingPage() {
         { name: "EN/DE", id: "#lang" }
       ]}
       brandName="Artemis"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DzkD2uz35Ou1bcDokeeXdpdXCv/uploaded-1779296716411-d4fpppan.jpg"
       button={{ text: "Apply Now", href: "/apply" }}
     />
   </div>
@@ -135,6 +136,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterBaseReveal
       logoText="ARTEMIS"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DzkD2uz35Ou1bcDokeeXdpdXCv/uploaded-1779296716411-d4fpppan.jpg"
       columns={[
         { title: "Company", items: [{ label: "About", href: "#" }, { label: "Careers", href: "#" }] },
         { title: "Legal", items: [{ label: "Privacy", href: "#" }, { label: "Terms", href: "#" }] },
