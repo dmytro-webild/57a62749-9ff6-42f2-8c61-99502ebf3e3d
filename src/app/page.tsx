@@ -34,10 +34,11 @@ export default function LandingPage() {
         { name: "Values", id: "#values" },
         { name: "Apply", id: "/apply" },
         { name: "Contact", id: "#contact" },
-        { name: "EN/DE", id: "#lang" }
+        { name: "Language", id: "#lang" }
       ]}
-      brandName="Artemis"
+      brandName="Artemis Agency"
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DzkD2uz35Ou1bcDokeeXdpdXCv/uploaded-1779296716411-d4fpppan.jpg"
+      logoClassName="w-12 h-12"
       button={{ text: "Apply Now", href: "/apply" }}
     />
   </div>
