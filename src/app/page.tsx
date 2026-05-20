@@ -29,18 +29,14 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Solutions",          id: "#solution"},
-        {
-          name: "Process",          id: "#process"},
-        {
-          name: "Values",          id: "#values"},
-        {
-          name: "Contact",          id: "#contact"},
+        { name: "Solutions", id: "#solution" },
+        { name: "Process", id: "#process" },
+        { name: "Values", id: "#values" },
+        { name: "Apply", id: "/apply" },
+        { name: "Contact", id: "#contact" },
       ]}
       brandName="Artemis"
-      button={{
-        text: "Apply Now",        href: "#contact"}}
+      button={{ text: "Apply Now", href: "/apply" }}
     />
   </div>
 
@@ -48,25 +44,11 @@ export default function LandingPage() {
       <HeroOverlay
       title="Professional support for your OnlyFans business."
       description="Artemis supports selected creators with strategic growth, optimization and management — discreet, structured and professional."
-      buttons={[
-        {
-          text: "Book a Free Consultation",          href: "#contact"},
-      ]}
+      buttons={[{ text: "Book a Free Consultation", href: "#contact" }]}
       imageSrc="http://img.b2bpic.net/free-photo/elegant-geometric-background-business_24972-1791.jpg"
       showDimOverlay={true}
       showBlur={true}
-      avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-handsome-bearded-man-with-ear-bandage-art-studio_23-2149705903.jpg",          alt: "Portrait of handsome bearded man"},
-        {
-          src: "http://img.b2bpic.net/free-photo/handsome-confident-man_1098-18449.jpg",          alt: "Handsome confident man"},
-        {
-          src: "http://img.b2bpic.net/free-photo/confident-middle-aged-woman-portrait_23-2149051720.jpg",          alt: "Confident middle aged woman"},
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-stylish-woman-posing-fashionable-outfit_23-2149021805.jpg",          alt: "Portrait of stylish woman"},
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-handsome-man-orange-background_23-2149020028.jpg",          alt: "Portrait of handsome man"},
-      ]}
+      avatars={[]}
       avatarText="Trusted by elite creators"
     />
   </div>
@@ -87,12 +69,9 @@ export default function LandingPage() {
       gridVariant="bento-grid"
       useInvertedBackground={false}
       features={[
-        {
-          title: "Strategic Scaling",          description: "Methodical growth strategies.",          imageSrc: "http://img.b2bpic.net/free-photo/assortment-matches-representing-graph_23-2148749506.jpg",          titleImageSrc: "http://img.b2bpic.net/free-vector/gradient-technology-concept-logotype-collection_52683-13459.jpg",          buttonText: "Learn More"},
-        {
-          title: "Revenue Optimization",          description: "Maximized efficiency per channel.",          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-cool-background_181624-26156.jpg",          titleImageSrc: "http://img.b2bpic.net/free-vector/gradient-social-media-logo-collection_23-2148306808.jpg",          buttonText: "Learn More"},
-        {
-          title: "Discreet Management",          description: "High-level professional privacy.",          imageSrc: "http://img.b2bpic.net/free-vector/vintage-golden-art-nouveau-badge-vector_53876-57477.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/minus-icon-left-side_187299-44679.jpg",          buttonText: "Learn More"},
+        { title: "Strategic Scaling", description: "Methodical growth strategies.", imageSrc: "http://img.b2bpic.net/free-photo/assortment-matches-representing-graph_23-2148749506.jpg", titleImageSrc: "http://img.b2bpic.net/free-vector/gradient-technology-concept-logotype-collection_52683-13459.jpg", buttonText: "Learn More" },
+        { title: "Revenue Optimization", description: "Maximized efficiency per channel.", imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-cool-background_181624-26156.jpg", titleImageSrc: "http://img.b2bpic.net/free-vector/gradient-social-media-logo-collection_23-2148306808.jpg", buttonText: "Learn More" },
+        { title: "Discreet Management", description: "High-level professional privacy.", imageSrc: "http://img.b2bpic.net/free-vector/vintage-golden-art-nouveau-badge-vector_53876-57477.jpg", titleImageSrc: "http://img.b2bpic.net/free-photo/minus-icon-left-side_187299-44679.jpg", buttonText: "Learn More" },
       ]}
       title="Premium Operational Systems"
       description="We replace chaos with precision."
@@ -106,12 +85,9 @@ export default function LandingPage() {
       gridVariant="bento-grid"
       useInvertedBackground={false}
       metrics={[
-        {
-          id: "p1",          value: "01",          description: "Application & Vetting"},
-        {
-          id: "p2",          value: "02",          description: "Private Consultation"},
-        {
-          id: "p3",          value: "03",          description: "Strategy & Management"},
+        { id: "p1", value: "01", description: "Application & Vetting" },
+        { id: "p2", value: "02", description: "Private Consultation" },
+        { id: "p3", value: "03", description: "Strategy & Management" },
       ]}
       title="Our Three-Step Evolution"
       description="A refined path to elite management."
@@ -133,16 +109,11 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        {
-          id: "t1",          name: "Alex R.",          handle: "@alexcreator",          testimonial: "Artemis turned my workflow into a machine.",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-man-blending-different-colors-his-painting_23-2148422200.jpg"},
-        {
-          id: "t2",          name: "Sophia L.",          handle: "@sophiastudios",          testimonial: "Elite level professionalism. Highly recommend.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-66975.jpg"},
-        {
-          id: "t3",          name: "Jordan P.",          handle: "@jordancreative",          testimonial: "The only agency that understands branding.",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-shooting-with-projector_23-2149424929.jpg"},
-        {
-          id: "t4",          name: "Maya K.",          handle: "@mayaspace",          testimonial: "Structured, calm, and incredibly effective.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-middle-aged-charismatic-man-brown-coat-dark-photo-studio_613910-14768.jpg"},
-        {
-          id: "t5",          name: "Elena M.",          handle: "@elenawork",          testimonial: "Finally, the strategy I actually needed.",          imageSrc: "http://img.b2bpic.net/free-photo/spotlight-portrait-golden-hour_23-2151915114.jpg"},
+        { id: "t1", name: "Alex R.", handle: "@alexcreator", testimonial: "Artemis turned my workflow into a machine.", imageSrc: "http://img.b2bpic.net/free-photo/smiley-man-blending-different-colors-his-painting_23-2148422200.jpg" },
+        { id: "t2", name: "Sophia L.", handle: "@sophiastudios", testimonial: "Elite level professionalism. Highly recommend.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-66975.jpg" },
+        { id: "t3", name: "Jordan P.", handle: "@jordancreative", testimonial: "The only agency that understands branding.", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-shooting-with-projector_23-2149424929.jpg" },
+        { id: "t4", name: "Maya K.", handle: "@mayaspace", testimonial: "Structured, calm, and incredibly effective.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-middle-aged-charismatic-man-brown-coat-dark-photo-studio_613910-14768.jpg" },
+        { id: "t5", name: "Elena M.", handle: "@elenawork", testimonial: "Finally, the strategy I actually needed.", imageSrc: "http://img.b2bpic.net/free-photo/spotlight-portrait-golden-hour_23-2151915114.jpg" },
       ]}
       title="Refined Creator Experiences"
       description="Voices of the creators we guide."
@@ -152,8 +123,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactCenter
       useInvertedBackground={false}
-      background={{
-        variant: "canvas-reveal"}}
+      background={{ variant: "canvas-reveal" }}
       tag="Apply Now"
       title="Step into the elite."
       description="Ready to scale your business? Artemis is accepting new applications from serious creators."
@@ -164,22 +134,8 @@ export default function LandingPage() {
       <FooterBaseReveal
       logoText="ARTEMIS"
       columns={[
-        {
-          title: "Company",          items: [
-            {
-              label: "About",              href: "#"},
-            {
-              label: "Careers",              href: "#"},
-          ],
-        },
-        {
-          title: "Legal",          items: [
-            {
-              label: "Privacy",              href: "#"},
-            {
-              label: "Terms",              href: "#"},
-          ],
-        },
+        { title: "Company", items: [{ label: "About", href: "#" }, { label: "Careers", href: "#" }] },
+        { title: "Legal", items: [{ label: "Privacy", href: "#" }, { label: "Terms", href: "#" }] },
       ]}
     />
   </div>
