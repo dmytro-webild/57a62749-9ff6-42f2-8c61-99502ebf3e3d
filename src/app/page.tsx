@@ -34,7 +34,7 @@ export default function LandingPage() {
         { name: "Values", id: "#values" },
         { name: "Apply", id: "/apply" },
         { name: "Contact", id: "#contact" },
-        { name: "Language", id: "#lang", dropdownItems: [{label: "German", value: "de"}, {label: "English", value: "en"}, {label: "French", value: "fr"}, {label: "Spanish", value: "es"}] }
+        { name: "Language", id: "#lang" }
       ]}
       brandName="Artemis Agency"
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DzkD2uz35Ou1bcDokeeXdpdXCv/uploaded-1779296716411-d4fpppan.jpg"
