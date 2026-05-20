@@ -41,7 +41,9 @@ export default function ContactPage() {
         </form>
       </main>
 
-      <FooterBaseReveal logoText="ARTEMIS" columns={[]} />
+      <div className="bg-gradient-to-b from-background to-card">
+        <FooterBaseReveal logoText="ARTEMIS" columns={[]} />
+      </div>
     </ThemeProvider>
   );
 }
