@@ -72,9 +72,7 @@ export default function ApplyPage() {
         </form>
       </main>
 
-      <div className="bg-gradient-to-b from-background to-card">
-        <FooterBaseReveal logoText="ARTEMIS" columns={[]} />
-      </div>
+      <FooterBaseReveal logoText="ARTEMIS" columns={[]} />
     </ThemeProvider>
   );
 }
