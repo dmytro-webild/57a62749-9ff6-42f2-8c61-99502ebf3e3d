@@ -10,8 +10,8 @@ import { Mulish } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Artemis | Elite Creator Management',
-  description: 'Artemis is a premier management agency for selected creators, providing world-class strategic growth, professional operations, and absolute discretion.',
+  title: "Artemis | OnlyFans Management",
+  description: "Artemis is a professional OnlyFans and social media agency specializing in Instagram growth, content strategy, branding, and the scaling of personal brands. We provide premium management for creators, with a focus on reach, revenue, and long-term brand building.",
 };
 
 const mulish = Mulish({
