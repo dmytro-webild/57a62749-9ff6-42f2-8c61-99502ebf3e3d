@@ -23,7 +23,8 @@ export default function ApplyPage() {
     >
       <NavbarLayoutFloatingInline 
         navItems={[{ name: "Home", id: "/" }, { name: "Apply", id: "/apply" }]} 
-        brandName="Artemis"
+        brandName="Artemis Agency"
+        logoClassName="w-12 h-12"
         button={{ text: "Apply Now", href: "/apply" }}
       />
       
