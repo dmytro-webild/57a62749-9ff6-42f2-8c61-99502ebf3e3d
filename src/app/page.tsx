@@ -34,7 +34,7 @@ export default function LandingPage() {
         { name: "Values", id: "#values" },
         { name: "Apply", id: "/apply" },
         { name: "Contact", id: "#contact" },
-        { name: "Language", id: "#lang" }
+        { name: "Language", id: "#lang", dropdownItems: [{label: "German", value: "de"}, {label: "English", value: "en"}, {label: "French", value: "fr"}, {label: "Spanish", value: "es"}] }
       ]}
       brandName="Artemis Agency"
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DzkD2uz35Ou1bcDokeeXdpdXCv/uploaded-1779296716411-d4fpppan.jpg"
@@ -73,8 +73,8 @@ export default function LandingPage() {
       gridVariant="bento-grid"
       useInvertedBackground={false}
       features={[
-        { title: "Strategic Scaling", description: "Methodical growth strategies.", imageSrc: "http://img.b2bpic.net/free-photo/assortment-matches-representing-graph_23-2148749506.jpg", titleImageSrc: "http://img.b2bpic.net/free-vector/gradient-technology-concept-logotype-collection_52683-13459.jpg", buttonText: "Learn More" },
-        { title: "Revenue Optimization", description: "Maximized efficiency per channel.", imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-cool-background_181624-26156.jpg", titleImageSrc: "http://img.b2bpic.net/free-vector/gradient-social-media-logo-collection_23-2148306808.jpg", buttonText: "Learn More" },
+        { title: "Strategic Scaling", description: "Methodical growth strategies.", imageSrc: "http://img.b2bpic.net/free-photo/assortment-matches-representing-graph_23-2148749506.jpg", titleImageSrc: "http://img.b2bvec.net/free-vector/gradient-technology-concept-logotype-collection_52683-13459.jpg", buttonText: "Learn More" },
+        { title: "Revenue Optimization", description: "Maximized efficiency per channel.", imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-cool-background_181624-26156.jpg", titleImageSrc: "http://img.b2bvec.net/free-vector/gradient-social-media-logo-collection_23-2148306808.jpg", buttonText: "Learn More" },
         { title: "Discreet Management", description: "High-level professional privacy.", imageSrc: "http://img.b2bpic.net/free-vector/vintage-golden-art-nouveau-badge-vector_53876-57477.jpg", titleImageSrc: "http://img.b2bpic.net/free-photo/minus-icon-left-side_187299-44679.jpg", buttonText: "Learn More" },
       ]}
       title="Premium Operational Systems"
